@@ -1,27 +1,23 @@
-### 03 — Faturamento de Pedidos
+# Faturamento de Pedidos
 
-Nesta atividade foi desenvolvido um sistema relacionado ao **faturamento de pedidos**, aplicando conceitos de orientação a objetos e boas práticas de desenvolvimento.
+Atividade 03 da disciplina **Java II — Tópicos Avançados**, da Pós-Graduação em Desenvolvimento Java.
 
-Um dos principais objetivos foi trabalhar a organização do código utilizando princípios de projeto que favorecem **manutenção, reutilização e baixo acoplamento**.
+Sistema de **faturamento de pedidos** desenvolvido com foco em orientação a objetos e boas práticas de projeto, buscando um código fácil de manter, reutilizar e estender, com **baixo acoplamento**.
 
-#### Principais conceitos trabalhados
+## 🧠 Conceitos aplicados
 
-- Programação Orientada a Objetos.
-- Separação de responsabilidades.
-- Encapsulamento.
-- Interfaces.
-- Polimorfismo.
-- Composição.
-- Tratamento de diferentes comportamentos por meio de abstrações.
-- Aplicação dos princípios **SOLID**.
-- Uso de **Pattern Matching** quando aplicável.
-- Organização das responsabilidades entre as classes.
-- Testes automatizados.
-- Gerenciamento das dependências e execução dos testes com Maven.
+- Programação Orientada a Objetos
+- Separação de responsabilidades
+- Encapsulamento
+- Interfaces e polimorfismo
+- Composição
+- Tratamento de diferentes comportamentos por meio de abstrações
+- Princípios **SOLID**
+- **Pattern Matching**, quando aplicável
+- Testes automatizados
+- Gerenciamento de dependências e execução dos testes com Maven
 
-### SOLID
-
-A atividade contribuiu para compreender e aplicar os cinco princípios SOLID:
+## 🏛️ Princípios SOLID
 
 | Princípio | Conceito |
 |---|---|
@@ -31,4 +27,49 @@ A atividade contribuiu para compreender e aplicar os cinco princípios SOLID:
 | **I — Interface Segregation Principle** | Interfaces devem ser específicas e não obrigar classes a implementar métodos que não utilizam. |
 | **D — Dependency Inversion Principle** | O código deve depender de abstrações, e não diretamente de implementações concretas. |
 
-A aplicação desses princípios torna o código mais preparado para receber novas regras de negócio sem exigir alterações excessivas nas funcionalidades existentes.
+Aplicar esses princípios deixa o código preparado para receber novas regras de negócio sem exigir alterações excessivas nas funcionalidades existentes.
+
+## 🛠️ Tecnologias
+
+Java · Maven · JUnit · IntelliJ IDEA · Git · GitHub
+
+## 🗂️ Estrutura do projeto
+
+```text
+.
+├── src/
+├── pom.xml
+└── README.md
+```
+
+## ▶️ Como executar
+
+O projeto pode ser aberto no **IntelliJ IDEA** como projeto Maven, ou executado pelo Maven Wrapper.
+
+Executar os testes:
+
+```bash
+# Windows
+mvnw.cmd test
+
+# Linux / macOS
+./mvnw test
+```
+
+Compilar o projeto:
+
+```bash
+# Windows
+mvnw.cmd clean package
+
+# Linux / macOS
+./mvnw clean package
+```
+
+Os diretórios `target/` e os arquivos da IDE não são versionados, conforme o `.gitignore`.
+
+## 🎯 Objetivo acadêmico
+
+Praticar **orientação a objetos** e **SOLID** em um cenário de negócio, construindo uma solução organizada e preparada para evoluir.
+
+Este repositório faz parte do portfólio acadêmico da Pós-Graduação em Desenvolvimento Java.
